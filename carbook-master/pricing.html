@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <title>Carbook - Free Bootstrap 4 Template by Colorlib</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
-    
+
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -21,446 +24,801 @@
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/jquery.timepicker.css">
 
-    
+
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    
-	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Car<span>Book</span></a>
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+    <style>
+        .custom-btn:hover {
+            background-color: purple !important;
+            border-color: purple !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/logo (1).jpg" class="img-fluid w-30" alt="Shivshambhu Travels Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-	          <li class="nav-item active"><a href="pricing.html" class="nav-link">Pricing</a></li>
-	          <li class="nav-item"><a href="car.html" class="nav-link">Cars</a></li>
-	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-    <!-- END nav -->
-    
-    <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/bg_3.jpg');" data-stellar-background-ratio="0.5">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
-          <div class="col-md-9 ftco-animate pb-5">
-          	<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Pricing <i class="ion-ios-arrow-forward"></i></span></p>
-            <h1 class="mb-3 bread">Pricing</h1>
-          </div>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item "><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item active"><a href="pricing.html" class="nav-link">Booking</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Gallary</a></li>
+                    <!-- <li class="nav-item"><a href="car.html" class="nav-link">Cars</a></li> -->
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Review</a></li>
+                    <!-- for call -->
+                    <li class="nav-item"><a href="tel:9370554767" class="nav-link"><i class="bi bi-telephone"></i></a></li>
+                    <!-- whatsapp -->
+                    <li class="nav-item " id="chat-btnclick">
+                        <a href="number:9370554767" class="nav-link"><i class="fa fa-whatsapp"></i> </a></li>
+                </ul>
+            </div>
         </div>
-      </div>
+    </nav>
+    <!-- END nav -->
+    <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/bookinglogo.jpg');" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
+                <div class="col-md-9 ftco-animate pb-5">
+                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Pricing <i class="ion-ios-arrow-forward"></i></span></p>
+                    <h1 class="mb-3 bread">Pricing</h1>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="ftco-section ftco-cart">
-			<div class="container">
-				<div class="row">
-    			<div class="col-md-12 ftco-animate">
-    				<div class="car-list">
-	    				<table class="table">
-						    <thead class="thead-primary">
-						      <tr class="text-center">
-						        <th>&nbsp;</th>
-						        <th>&nbsp;</th>
-						        <th class="bg-primary heading">Per Hour Rate</th>
-						        <th class="bg-dark heading">Per Day Rate</th>
-						        <th class="bg-black heading">Leasing</th>
-						      </tr>
-						    </thead>
-						    <tbody>
-						      <tr class="">
-						      	<td class="car-image"><div class="img" style="background-image:url(images/car-1.jpg);"></div></td>
-						        <td class="product-name">
-						        	<h3>Cheverolet SUV Car</h3>
-						        	<p class="mb-0 rated">
-						        		<span>rated:</span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        	</p>
-						        </td>
-						        
-						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 10.99</span>
-							        		<span class="per">/per hour</span>
-							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
-						        	</div>
-						        </td>
-						        
-						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 60.99</span>
-							        		<span class="per">/per day</span>
-							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
-						        </div>
-						        </td>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ftco-animate">
+                    <div class="car-list">
+                        <table class="table">
+                            <thead class="thead-primary">
+                                <tr class="text-center">
+                                    <th>&nbsp;</th>
+                                    <th>&nbsp;</th>
+                                    <th class="bg-primary heading">Car Type</th>
+                                    <th class="bg-black heading">Charges per KM</th>
+                                    <th class="bg-dark heading col-md-2">Book</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="">
+                                    <td class="car-image">
+                                        <div class="img" style="background-image:url(images/car-1.jpg);"></div>
+                                    </td>
+                                    <td class="product-name">
+                                        <h3>Cheverolet SUV Car</h3>
+                                        <p class="mb-0 rated">
+                                            <span>rated:</span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                        </p>
+                                    </td>
 
-						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 995.99</span>
-							        		<span class="per">/per month</span>
-							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
-							        </div>
-						        </td>
-						      </tr><!-- END TR-->
+                                    <td class="price">
+                                        <!-- <p class="btn-custom"><a href="#">Book</a></p> -->
+                                        <div class="price-rate1">
+                                            <span class="subheading">Hatchback (Indica,Wagonr )</span>
+                                        </div>
+                                    </td>
 
-						      <tr class="">
-						      	<td class="car-image"><div class="img" style="background-image:url(images/car-2.jpg);"></div></td>
-						        <td class="product-name">
-						        	<h3>Cheverolet SUV Car</h3>
-						        	<p class="mb-0 rated">
-						        		<span>rated:</span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        	</p>
-						        </td>
-						        
-						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 10.99</span>
-							        		<span class="per">/per hour</span>
-							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
-							        </div>
-						        </td>
-						        
-						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 60.99</span>
-							        		<span class="per">/per day</span>
-							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
-							        </div>
-						        </td>
+                                    <td class="price">
+                                        <!-- <p class="btn-custom"><a href="#">Book</a></p> -->
+                                        <div class="price-rate1">
+                                            <h3>
+                                                <span class="num">Rs.11</span>
+                                                <span class="per">/KM</span>
+                                            </h3>
+                                            <!-- <span class="subheading">Rs.11/KM</span> -->
+                                        </div>
+                                    </td>
 
-						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 995.99</span>
-							        		<span class="per">/per month</span>
-							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
-							        </div>
-						        </td>
-						      </tr><!-- END TR-->
+                                    <td class="price">
+                                        <p class="btn-custom"><a href="#">Book</a></p>
+                                        <div class="price-rate">
+                                            <!-- <h3>
+                                                <span class="num"><small class="currency">$</small> 995.99</span>
+                                                <span class="per">/per month</span>
+                                            </h3> -->
+                                            <!-- <span class="subheading"> 3 Seats AC 0 bags <br> No Pets TOLL : Excluded</span> -->
+                                            <span class="subheading col-md-4 ">Book</span>
 
-						      <tr class="">
-						      	<td class="car-image"><div class="img" style="background-image:url(images/car-3.jpg);"></div></td>
-						        <td class="product-name">
-						        	<h3>Cheverolet SUV Car</h3>
-						        	<p class="mb-0 rated">
-						        		<span>rated:</span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        	</p>
-						        </td>
-						        
-						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 10.99</span>
-							        		<span class="per">/per hour</span>
-							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
-							        </div>
-						        </td>
-						        
-						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 60.99</span>
-							        		<span class="per">/per day</span>
-							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
-							        </div>
-						        </td>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- END TR-->
 
-						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 995.99</span>
-							        		<span class="per">/per month</span>
-							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
-							        </div>
-						        </td>
-						      </tr><!-- END TR-->
+                                <tr class="">
+                                    <td class="car-image">
+                                        <div class="img" style="background-image:url(images/car-2.jpg);"></div>
+                                    </td>
+                                    <td class="product-name1">
+                                        <h3>Cheverolet SUV Car</h3>
+                                        <p class="mb-0 rated">
+                                            <span>rated:</span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                        </p>
+                                    </td>
 
-						      <tr class="">
-						      	<td class="car-image"><div class="img" style="background-image:url(images/car-4.jpg);"></div></td>
-						        <td class="product-name">
-						        	<h3>Cheverolet SUV Car</h3>
-						        	<p class="mb-0 rated">
-						        		<span>rated:</span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        	</p>
-						        </td>
-						        
-						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 10.99</span>
-							        		<span class="per">/per hour</span>
-							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
-							        </div>
-						        </td>
-						        
-						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 60.99</span>
-							        		<span class="per">/per day</span>
-							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
-							        </div>
-						        </td>
+                                    <td class="price">
+                                        <!-- <p class="btn-custom"><a href="#">Book</a></p> -->
+                                        <div class="price-rate/1">
+                                            <!-- <h3>
+                                                <span class="num"><small class="currency">$</small> 10.99</span>
+                                                <span class="per">/per hour</span>
+                                            </h3> -->
+                                            <span class="subheading">Sedan (Dzire,Xcent A/C)</span>
+                                        </div>
+                                    </td>
 
-						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 995.99</span>
-							        		<span class="per">/per month</span>
-							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
-							        </div>
-						        </td>
-						      </tr><!-- END TR-->
+                                    <td class="price">
+                                        <!-- <p class="btn-custom"><a href="#">Book</a></p> -->
+                                        <div class="price-rate1">
+                                            <h3>
+                                                <span class="num">Rs.12</span>
+                                                <span class="per">/KM</span>
+                                            </h3>
+                                            <!-- <span class="subheading">Rs.12/KM</span> -->
+                                        </div>
+                                    </td>
 
+                                    <td class="price">
+                                        <p class="btn-custom"><a href="#">Book</a></p>
+                                        <div class="price-rate">
+                                            <!-- <h3>
+                                                <span class="num"><small class="currency">$</small> 995.99</span>
+                                                <span class="per">/per month</span>
+                                            </h3> -->
+                                            <!-- <span class="subheading"> 4 Seat AC 3 bag  No Pets <br>TOLL : Excluded</span> -->
+                                            <span class="subheading col-md-4 ">Book</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- END TR-->
 
-						      <tr class="">
-						      	<td class="car-image"><div class="img" style="background-image:url(images/car-5.jpg);"></div></td>
-						        <td class="product-name">
-						        	<h3>Cheverolet SUV Car</h3>
-						        	<p class="mb-0 rated">
-						        		<span>rated:</span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        	</p>
-						        </td>
-						        
-						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 10.99</span>
-							        		<span class="per">/per hour</span>
-							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
-							        </div>
-						        </td>
-						        
-						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 60.99</span>
-							        		<span class="per">/per day</span>
-							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
-							        </div>
-						        </td>
+                                <tr class="">
+                                    <td class="car-image">
+                                        <div class="img" style="background-image:url(images/car-3.jpg);"></div>
+                                    </td>
+                                    <td class="product-name">
+                                        <h3>Cheverolet SUV Car</h3>
+                                        <p class="mb-0 rated">
+                                            <span>rated:</span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                        </p>
+                                    </td>
 
-						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 995.99</span>
-							        		<span class="per">/per month</span>
-							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
-							        </div>
-						        </td>
-						      </tr><!-- END TR-->
+                                    <td class="price">
+                                        <!-- <p class="btn-custom"><a href="#">Book</a></p> -->
+                                        <div class="price-rate1">
+                                            <!-- <h3>
+                                                <span class="num"><small class="currency">$</small> 10.99</span>
+                                                <span class="per">/per hour</span>
+                                            </h3> -->
+                                            <span class="subheading">SUV (Ertiga A/C)</span>
+                                        </div>
+                                    </td>
+
+                                    <td class="price">
+                                        <!-- <p class="btn-custom"><a href="#">Book</a></p> -->
+                                        <div class="price-rate1">
+                                            <h3>
+                                                <span class="num">Rs.15</span>
+                                                <span class="per">/KM</span>
+                                            </h3>
+                                            <!-- <span class="subheading">Rs.15/KM</span> -->
+                                        </div>
+                                    </td>
+
+                                    <td class="price">
+                                        <p class="btn-custom"><a href="#">Book</a></p>
+                                        <div class="price-rate">
+                                            <!-- <h3>
+                                                <span class="num"><small class="currency">$</small> 995.99</span>
+                                                <span class="per">/per month</span>
+                                            </h3> -->
+                                            <!-- <span class="subheading"> 4 Seat AC 3 bags <br> No Pets  TOLL : Excluded -->
+                                            <span class="subheading col-md-4 ">Book</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- END TR-->
+
+                                <tr class="">
+                                    <td class="car-image">
+                                        <div class="img" style="background-image:url(images/car-4.jpg);"></div>
+                                    </td>
+                                    <td class="product-name">
+                                        <h3>Cheverolet SUV Car</h3>
+                                        <p class="mb-0 rated">
+                                            <span>rated:</span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                        </p>
+                                    </td>
+
+                                    <td class="price">
+                                        <!-- <p class="btn-custom"><a href="#">Book</a></p> -->
+                                        <div class="price-rate1">
+                                            <!-- <h3>
+                                                <span class="num"><small class="currency">$</small> 10.99</span>
+                                                <span class="per">/per hour</span>
+                                            </h3> -->
+                                            <span class="subheading">Premium SUV (Innova A/C)</span>
+                                        </div>
+                                    </td>
+
+                                    <td class="price">
+                                        <!-- <p class="btn-custom"><a href="#">Book</a></p> -->
+                                        <div class="price-rate1">
+                                            <h3>
+                                                <span class="num">Rs.17</span>
+                                                <span class="per">/KM</span>
+                                            </h3>
+                                            <!-- <span class="subheading">Rs.17/KM</span> -->
+                                        </div>
+                                    </td>
+
+                                    <td class="price">
+                                        <p class="btn-custom"><a href="#">Book</a></p>
+                                        <div class="price-rate">
+                                            <!-- <h3>
+                                                <span class="num"><small class="currency">$</small> 995.99</span>
+                                                <span class="per">/per month</span>
+                                            </h3> -->
+                                            <!-- <span class="subheading"> 6 Seats AC 5 bags No Pets TOLL : Excluded</span> -->
+                                            <span class="subheading col-md-4 ">Book</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- END TR-->
 
 
-						      <tr class="">
-						      	<td class="car-image"><div class="img" style="background-image:url(images/car-6.jpg);"></div></td>
-						        <td class="product-name">
-						        	<h3>Cheverolet SUV Car</h3>
-						        	<p class="mb-0 rated">
-						        		<span>rated:</span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        	</p>
-						        </td>
-						        
-						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 10.99</span>
-							        		<span class="per">/per hour</span>
-							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
-							        </div>
-						        </td>
-						        
-						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 60.99</span>
-							        		<span class="per">/per day</span>
-							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
-							        </div>
-						        </td>
+                                <tr class="">
+                                    <td class="car-image">
+                                        <div class="img" style="background-image:url(images/car-5.jpg);"></div>
+                                    </td>
+                                    <td class="product-name">
+                                        <h3>Cheverolet SUV Car</h3>
+                                        <p class="mb-0 rated">
+                                            <span>rated:</span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                        </p>
+                                    </td>
 
-						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
-						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 995.99</span>
-							        		<span class="per">/per month</span>
-							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
-							        </div>
-						        </td>
-						      </tr><!-- END TR-->
-						    </tbody>
-						  </table>
-					  </div>
-    			</div>
-    		</div>
-			</div>
-		</section>
+                                    <td class="price">
+                                        <!-- <p class="btn-custom"><a href="#">Book</a></p> -->
+                                        <div class="price-rate1">
+                                            <!-- <h3>
+                                                <span class="num"><small class="currency">$</small> 10.99</span>
+                                                <span class="per">/per hour</span>
+                                            </h3> -->
+                                            <span class="subheading">Tavera AC</span>
+                                        </div>
+                                    </td>
+
+                                    <td class="price">
+                                        <!-- <p class="btn-custom"><a href="#">Book</a></p> -->
+                                        <div class="price-rate1">
+                                            <h3>
+                                                <span class="num">Rs.17</span>
+                                                <span class="per">/KM</span>
+                                            </h3>
+                                            <!-- <span class="subheading">Rs.17/KM</span> -->
+                                        </div>
+                                    </td>
+
+                                    <td class="price">
+                                        <p class="btn-custom"><a href="#">Book</a></p>
+                                        <div class="price-rate">
+                                            <!-- <h3>
+                                                <span class="num"><small class="currency">$</small> 995.99</span>
+                                                <span class="per">/per month</span>
+                                            </h3> -->
+                                            <!-- <span class="subheading"> 6 Seats AC 5 bags No Pets TOLL : Excluded</span> -->
+                                            <span class="subheading col-md-4 ">Book</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- END TR-->
+
+
+                                <tr class="">
+                                    <td class="car-image">
+                                        <div class="img" style="background-image:url(images/car-6.jpg);"></div>
+                                    </td>
+                                    <td class="product-name">
+                                        <h3>Cheverolet SUV Car</h3>
+                                        <p class="mb-0 rated">
+                                            <span>rated:</span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                        </p>
+                                    </td>
+
+                                    <td class="price">
+                                        <!-- <p class="btn-custom"><a href="#">Book</a></p> -->
+                                        <div class="price-rate1">
+                                            <!-- <h3>
+                                                <span class="num"><small class="currency">$</small> 10.99</span>
+                                                <span class="per">/per hour</span>
+                                            </h3> -->
+                                            <span class="subheading">Premium SUV (Innova Crysta A/C)</span>
+                                        </div>
+                                    </td>
+
+                                    <td class="price">
+                                        <!-- <p class="btn-custom"><a href="#">Book</a></p> -->
+                                        <div class="price-rate1">
+                                            <h3>
+                                                <span class="num">Rs.20</span>
+                                                <span class="per">/KM</span>
+                                            </h3>
+                                            <!-- <span class="subheading">Rs.20/KM</span> -->
+                                        </div>
+                                    </td>
+
+                                    <td class="price">
+                                        <p class="btn-custom"><a href="#">Book</a></p>
+                                        <div class="price-rate">
+                                            <!-- <h3>
+                                                <span class="num"><small class="currency">$</small> 995.99</span>
+                                                <span class="per">/per month</span>
+                                            </h3> -->
+                                            <!-- <span class="subheading">6 Seats AC 5 bags No Pets TOLL : Excluded</span> -->
+                                            <span class="subheading col-md-4 ">Book</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- END TR-->
+                                <tr class="">
+                                    <td class="car-image">
+                                        <div class="img" style="background-image:url(images/car-6.jpg);"></div>
+                                    </td>
+                                    <td class="product-name">
+                                        <h3>Cheverolet SUV Car</h3>
+                                        <p class="mb-0 rated">
+                                            <span>rated:</span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                        </p>
+                                    </td>
+
+                                    <td class="price">
+                                        <!-- <p class="btn-custom"><a href="#">Book</a></p> -->
+                                        <div class="price-rate1">
+                                            <!-- <h3>
+                                                <span class="num"><small class="currency">$</small> 10.99</span>
+                                                <span class="per">/per hour</span>
+                                            </h3> -->
+                                            <span class="subheading">13/17 Seater Tempo Travel AC</span>
+                                        </div>
+                                    </td>
+
+                                    <td class="price">
+                                        <!-- <p class="btn-custom"><a href="#">Book</a></p> -->
+                                        <div class="price-rate1">
+                                            <!-- <h3>
+                                                <span class="num">Rs.28</span>
+                                                <span class="per">/KM</span>
+                                            </h3>
+                                            <span class="subheading">Rs.28/KM</span> -->
+                                        </div>
+                                    </td>
+
+                                    <td class="price">
+                                        <p class="btn-custom"><a href="#">Book</a></p>
+                                        <div class="price-rate">
+                                            <!-- <h3>
+                                                <span class="num"><small class="currency">$</small> 995.99</span>
+                                                <span class="per">/per month</span>
+                                            </h3>
+                                            <span class="subheading">$3/hour fuel surcharges</span> -->
+                                            <span class="subheading col-md-4 ">Book</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- END TR-->
+                                <tr class="">
+                                    <td class="car-image">
+                                        <div class="img" style="background-image:url(images/car-6.jpg);"></div>
+                                    </td>
+                                    <td class="product-name">
+                                        <h3>Cheverolet SUV Car</h3>
+                                        <p class="mb-0 rated">
+                                            <span>rated:</span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                            <span class="ion-ios-star"></span>
+                                        </p>
+                                    </td>
+
+                                    <td class="price">
+                                        <!-- <p class="btn-custom"><a href="#">Book</a></p> -->
+                                        <div class="price-rate1">
+                                            <!-- <h3>
+                                                <span class="num"><small class="currency">$</small> 10.99</span>
+                                                <span class="per">/per hour</span>
+                                            </h3> -->
+                                            <span class="subheading">13/17 Seater Tempo Travel Non AC</span>
+                                        </div>
+                                    </td>
+
+                                    <td class="price">
+                                        <p class="btn-custom"><a href="#">Book</a></p>
+                                        <div class="price-rate1">
+                                            <!-- <h3>
+                                                <span class="num">Rs.25</span>
+                                                <span class="per">/KM</span>
+                                            </h3> -->
+                                            <!-- <span class="subheading">Rs.25/KM</span> -->
+                                        </div>
+                                    </td>
+
+                                    <td class="price">
+                                        <p class="btn-custom"><a href="#">Book</a></p>
+                                        <div class="price-rate">
+                                            <!-- <h3>
+                                                <span class="num"><small class="currency">$</small> 995.99</span>
+                                                <span class="per">/per month</span>
+                                            </h3>
+                                            <span class="subheading">$3/hour fuel surcharges</span> -->
+                                            <span class="subheading col-md-4 ">Book</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- END TR-->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+//row to -->
+
+
+
+    <section>
+        <div class="container">
+            <div class="row justify-content-center  mt-4">
+                <div class="col-auto">
+                    <button type="button" class="btn  btn-outline-secondary custom-btn  btn-lg" onclick="toggleVisibility('Menu1');">ONE WAY DROP</button>
+                </div>
+                <div class="col-auto">
+                    <button type="button" class="btn btn-outline-secondary custom-btn  btn-lg" onclick="toggleVisibility('Menu2');">OUTSTATION</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div id="Menu1" class="mt-2 col-md-10">
+
+                    <section class="ftco-section ftco-no-pt justify-content-center  ">
+                        <div class="container justify-content-center col-md-12">
+                            <div class="row no-gutters justify-content-center">
+                                <div class="col-md-12">
+                                    <div class="row no-gutters justify-content-center ">
+                                        <div class="col-md-4 d-flex align-items-center">
+                                            <form action="#" class="request-form ftco-animate bg-secondary">
+
+                                                <div class="form-group">
+                                                    <label for="validationCustom01" class="label ">First name</label>
+                                                    <input type="text" class="form-control" placeholder="name" id="validationCustom01" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="exampleFormControlInput1" class="label">Email address</label>
+                                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="phone_no" class="label">Phone Number</label>
+                                                    <input type="text" name="num" data-validation="number" data-validation-allowing="negative,number" required="required" class="form-control" id="phone_no" placeholder="Phone Number">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="" class="label">Pick-up location</label>
+                                                    <input type="text" class="form-control" placeholder="City, Airport, Station, etc" id="pick-up">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="label">Select Cab </label>
+                                                    <select class=" form-select  btn-secondary">
+                                  <option selected>Select Cab</option>
+                                  <option value="1">Indica</option>
+                                  <option value="2">Swift Dzire</option>
+                                  <option value="3">Etios</option>
+                                  <option value="4">Ertiga</option>
+                                  <option value="5">Innova</option>
+                                  <option value="5">Innova Crysta</option>
+                                </select>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <div class="form-group mr-2">
+                                                        <label for="" class="label">Drop-off date</label>
+                                                        <input type="text" class="form-control" id="book_pick_date" placeholder="Date">
+                                                    </div>
+                                                    <div class="form-group ml-2">
+                                                        <label for="" class="label">Drop-off time</label>
+                                                        <input type="text" class="form-control" id="time_pick" placeholder="Time">
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <input type="submit" value="Book Now" class="btn btn-success btn-sm  ">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="Menu2" style="display: none;" class="mt-2">
+            <section class="ftco-section ftco-no-pt   ">
+                <div class="container justify-content-center col-md-10">
+                    <div class="row no-gutters justify-content-center">
+                        <div class="col-md-12">
+                            <div class="row no-gutters justify-content-center ">
+                                <div class="col-md-4 d-flex align-items-center">
+                                    <form action="#" class="request-form ftco-animate bg-secondary ">
+
+                                        <div class="form-group">
+                                            <label for="validationCustom01" class="label">First name</label>
+                                            <input type="text" class="form-control" placeholder="name" id="validationCustom01" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlInput1" class="label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="phone_no" class="label">Phone Number</label>
+                                            <input type="text" name="num" data-validation="number" data-validation-allowing="negative,number" required="required" class="form-control" id="phone_no" placeholder="Phone Number">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="" class="label">pick-up  location</label>
+                                            <input type="text" class="form-control" placeholder="City, Airport, Station, etc">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="label">Select Cab</label>
+                                            <select class="form-select  btn-secondary">
+                                  <option selected>Select Cab</option>
+                                  <option value="1">Indica</option>
+                                  <option value="2">Swift Dzire</option>
+                                  <option value="3">Etios</option>
+                                  <option value="4">Ertiga</option>
+                                  <option value="5">Innova</option>
+                                  <option value="5">Innova Crysta</option>
+                                </select>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="form-group mr-2">
+                                                <label for="" class="label">Drop-off date</label>
+                                                <input type="text" class="form-control" id="book_pick_date" placeholder="Date">
+                                            </div>
+                                            <div class="form-group ml-2">
+                                                <label for="" class="label">Drop-off time</label>
+                                                <input type="text" class="form-control" id="time_pick" placeholder="Time">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="submit" value="Book Now" class="btn btn-secondary py-3 px-4">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </section>
+
+
+
+
+
 
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2"><a href="#" class="logo">Car<span>book</span></a></h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-5">
-              <h2 class="ftco-heading-2">Information</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">About</a></li>
-                <li><a href="#" class="py-2 d-block">Services</a></li>
-                <li><a href="#" class="py-2 d-block">Term and Conditions</a></li>
-                <li><a href="#" class="py-2 d-block">Best Price Guarantee</a></li>
-                <li><a href="#" class="py-2 d-block">Privacy &amp; Cookies Policy</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Customer Support</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">FAQ</a></li>
-                <li><a href="#" class="py-2 d-block">Payment Option</a></li>
-                <li><a href="#" class="py-2 d-block">Booking Tips</a></li>
-                <li><a href="#" class="py-2 d-block">How it works</a></li>
-                <li><a href="#" class="py-2 d-block">Contact Us</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
-            	<div class="block-23 mb-3">
-	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
-	              </ul>
-	            </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Services</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="py-2 d-block">Pune to Nashik Cab</a></li>
+                            <li><a href="#" class="py-2 d-block">Pune to Aurangabad Cab</a></li>
+                            <li><a href="#" class="py-2 d-block">Pune to Lonavala Cab</a></li>
+                            <li><a href="#" class="py-2 d-block">Pune to Kolhapur Cab</a></li>
+                        </ul>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4 ml-md-5">
+                        <h2 class="ftco-heading-2">Services</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="py-2 d-block">Pune To Ashtavinayak Cab</a></li>
+                            <li><a href="#" class="py-2 d-block">Pune to Shirdi Cab</a></li>
+                            <li><a href="#" class="py-2 d-block">Pune to Mumbai Cab</a></li>
+                            <li><a href="#" class="py-2 d-block">Pune to Goa Cab</a></li>
+                            <li><a href="#" class="py-2 d-block">Pune to Lavasa Cab</a></li>
 
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Our Address</h2>
+                        <ul class="list-unstyled">
+
+                            <li><a href="#" class="py-2 d-block">Home</a></li>
+                            <li><a href="about.html" class="py-2 d-block">About</a></li>
+                            <li><a href="pricing.html" class="py-2 d-block">Cab Rates</a></li>
+                            <li><a href="services.html" class="py-2 d-block">Payment</a></li>
+                            <!-- <li class="nav-item"><a href="car.html" class="nav-link">Cars</a></li> -->
+                            <li><a href="contact.html" class="py-2 d-block">Contact</a></li>
+                            <li><a href="blog.html" class="py-2 d-block">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Our Address</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="icon icon-map-marker"></span><span class="text"><p>SainathTaxis</p>
+                                <p>Floor no 205, Lane no 3, Sathe Vasti,</p>
+                                <p>Near Bus Stop, Lohegaon, Pune, Maharashtra, 411047</p></span></li>
+                                <li><a href="tel:+91 9527833075"><span class="icon icon-phone"></span><span class="text">9527833075</span></a></li>
+                                <li><a href="mailto:Sainathtaxis@gmail.com"><span class="icon icon-envelope"></span><span class="text">SainathTaxis@gmail.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+
+                    <p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
     </footer>
-    
-  
-
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
-    
-  </body>
+
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <script>
+        var divs = ["Menu1", "Menu2"];
+        var visibleDivId = null;
+
+        function toggleVisibility(divId) {
+            if (visibleDivId === divId) {
+                visibleDivId = null;
+            } else {
+                visibleDivId = divId;
+            }
+            hideNonVisibleDivs();
+        }
+
+        function hideNonVisibleDivs() {
+            var i, divId, div;
+            for (i = 0; i < divs.length; i++) {
+                divId = divs[i];
+                div = document.getElementById(divId);
+                if (visibleDivId === divId) {
+                    div.style.display = "block";
+                } else {
+                    div.style.display = "none";
+                }
+            }
+        }
+    </script>
+    <script>
+        // Add an event listener to the form submission
+        document.querySelector('.request-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the form from submitting
+
+            // Get form field values
+            var firstName = document.getElementById('validationCustom01').value;
+            var email = document.getElementById('exampleFormControlInput1').value;
+            var phoneNumber = document.getElementById('phone_no').value;
+            var pickupLocation = document.querySelector('.form-group:nth-of-type(4) input').value;
+            var selectedCab = document.querySelector('.form-select').value;
+            var dropoffDate = document.getElementById('book_pick_date').value;
+            var dropoffTime = document.getElementById('time_pick').value;
+
+            // Log the values to the console
+            console.log('First Name:', firstName);
+            console.log('Email:', email);
+            console.log('Phone Number:', phoneNumber);
+            console.log('Pick-up Location:', pickupLocation);
+            console.log('Selected Cab:', selectedCab);
+            console.log('Drop-off Date:', dropoffDate);
+            console.log('Drop-off Time:', dropoffTime);
+        });
+    </script>
+</body>
+
 </html>
